@@ -1,11 +1,11 @@
 window.weatherWidgetConfig = window.weatherWidgetConfig || [];
 window.weatherWidgetConfig.push({
   selector: ".weatherWidget",
-  apiKey: "J7LM8UHF9J6HJPF8VZH3HD9MS&contentType=json", //Sign up for your personal key
-  location: "DHAKA, BANGLADESH", //Enter an address
-  unitGroup: "metric", //"us" or "metric"
-  forecastDays: 5, //how many days forecast to show
-  title: "dhaka,BD", //optional title to show in the
+  apiKey: "RP6VHBYFE9DUSKF6VRMDLCK9T&contentType=json", // Sign up for your personal key
+  location: "DHAKA, BANGLADESH", // Enter an address
+  unitGroup: "metric", // "us" or "metric"
+  forecastDays: 5, // How many days forecast to show
+  title: "dhaka, BD", // Optional title to show
   showTitle: true,
   showConditions: true,
 });
