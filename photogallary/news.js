@@ -4,9 +4,10 @@ fetch("https://newsapi.org/v2/everything?q=apple&from=2024-05-10&to=2024-05-10&s
   .then((data) => data.json())
   .then((data) => {
     for (const x of data.articles) {
-      if (counter < 5) {
+      if (counter < 3) {
         news += `
           <h1>${x.title}</h1>
+          <h1>${x.author}</h1>
           <p>${x.description}</p>
           `;
         counter++;
