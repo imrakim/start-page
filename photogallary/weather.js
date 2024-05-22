@@ -5,7 +5,7 @@ window.weatherWidgetConfig.push({
   location: "DHAKA, BANGLADESH", // Enter an address
   unitGroup: "metric", // "us" or "metric"
   forecastDays: 5, // How many days forecast to show
-  title: "dhaka, BD", // Optional title to show
+  title: "Dhaka, BD", // Optional title to show
   showTitle: true,
   showConditions: true,
 });
