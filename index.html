@@ -10,6 +10,7 @@
 	<!-- Global stylesheets -->
 
 	<link rel="stylesheet" href="./css/clc.css">
+	<link rel="stylesheet" href="./clock/app.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet"
 		type="text/css">
 	<link href="./global_assets/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css">
@@ -510,52 +511,22 @@
 					
 					<div class="col-md-4">
 						<div class="card">
-							<div class="card-header header-elements-inline bg-info-700">
-								<h6 class="card-title">Multiple columns card 5</h6>
+							<h5 class="py-2 text-center bg-info-700">Real time clock</h5>
+							<div class="card-header header-elements-inline bg-info-700 justify-content-center">
 								<div class="header-elements">
-									<div class="list-icons">
-										<a class="list-icons-item" data-action="collapse"></a>
-										<a class="list-icons-item" data-action="move"></a>
-										<a class="icon-x"></a>
-									</div>
+									<div class="container px-3">
+										<div class="circle green">
+										  <div class="number" id="hour">3</div>
+										</div>
+										<div class="circle red">
+										  <div class="number" id="min">23</div>
+										</div>
+										<div class="circle yellow">
+										  <div class="number" id="sec">36</div>
+										  <p class="day-night" id="ampm">AM</p>
+										</div>
+									  </div>
 								</div>
-							</div>
-
-							<div class="table-responsive">
-								<table class="table">
-									<thead>
-										<tr>
-											<th>#</th>
-											<th>First Name</th>
-											<th>Last Name</th>
-											<th>Username</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td rowspan="2">1</td>
-											<td>Mark</td>
-											<td>Otto</td>
-											<td>@mdo</td>
-										</tr>
-										<tr>
-											<td>Mark</td>
-											<td>Otto</td>
-											<td>@TwBootstrap</td>
-										</tr>
-										<tr>
-											<td>2</td>
-											<td>Jacob</td>
-											<td>Thornton</td>
-											<td>@fat</td>
-										</tr>
-										<tr>
-											<td>3</td>
-											<td colspan="2">Larry the Bird</td>
-											<td>@twitter</td>
-										</tr>
-									</tbody>
-								</table>
 							</div>
 						</div>
 					</div>
@@ -932,6 +903,7 @@
 	<script src="photogallary/weather.js"></script>
 	<!-- js code link -->
 	<script src="./photogallary/clc.js"></script>
+	<script src="./clock/app.js"></script>
 
 </body>
 
